@@ -1,0 +1,18 @@
+# Configuration file for Discovery Server
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # We don't have to enable the registerWithEureka, because we have only one Eureka instance
+    # If we run multiple Eureka instance for redundancy, we should register this Eureka instance with other instances
+    registerWithEureka: false
+    fetchRegistry: false
+
+server:
+  port: 1111   # HTTP port where this service will be listening. By default it's 8761
+
+#Avoid to configure the data source for now
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

@@ -1,0 +1,20 @@
+# Configuration file for Accounts Server
+spring:
+  application:
+    name: accounts-service
+
+# Data to reach Discovery Server Eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+  # Change the renew time to be discovered quick just for testing purpose
+  instance:
+    leaseRenewalIntervalInSeconds: 3
+    # Define the instance name which is used to register in Eureka
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+
+# HTTP Server
+server:
+  port: 2222   # HTTP port where this service will be listening. By default it's 8080

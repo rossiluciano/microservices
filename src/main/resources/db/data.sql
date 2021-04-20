@@ -1,0 +1,15 @@
+insert into ACCOUNT (NUMBER, NAME) values ('123456001', 'Roger McGregor');
+insert into ACCOUNT (NUMBER, NAME) values ('123456789', 'Jhon Smith');
+insert into ACCOUNT (NUMBER, NAME) values ('123456002', 'Silvestre Stalone');
+insert into ACCOUNT (NUMBER, NAME) values ('123456003', 'Robert De Niro');
+insert into ACCOUNT (NUMBER, NAME) values ('123456004', 'Nicolas Cage');
+insert into ACCOUNT (NUMBER, NAME) values ('123456005', 'Jhon Travolta');
+insert into ACCOUNT (NUMBER, NAME) values ('123456006', 'Susan Rivolta');
+insert into ACCOUNT (NUMBER, NAME) values ('123456007', 'Tamara Castro');
+insert into ACCOUNT (NUMBER, NAME) values ('123456008', 'Leticia Rinaldi');
+insert into ACCOUNT (NUMBER, NAME) values ('123456009', 'Luna Ochoa');
+insert into ACCOUNT (NUMBER, NAME) values ('123456010', 'Abril Lavigne');
+insert into ACCOUNT (NUMBER, NAME) values ('123456011', 'Leslie Fernandez');
+insert into ACCOUNT (NUMBER, NAME) values ('123456012', 'Mary Carey');
+insert into ACCOUNT (NUMBER, NAME) values ('123456013', 'Angelo Di Luca');
+insert into ACCOUNT (NUMBER, NAME) values ('123456014', 'Ivan Aumada');
